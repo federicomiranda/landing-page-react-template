@@ -1,0 +1,9 @@
+.ThreeColumns {
+  background: var(--gris);
+  padding: 48px 0;
+}
+
+.ThreeColumns__container {
+  display: flex;
+  justify-content: space-between;
+}

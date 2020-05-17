@@ -1,0 +1,14 @@
+.SixArticles {
+  padding: 48px 0;
+  background: var(--gris);
+}
+
+.SixArticles__container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.Article:nth-child(4), .Article:nth-child(5), .Article:last-child {
+  margin-bottom: 0;
+}

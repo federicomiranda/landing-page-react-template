@@ -1,0 +1,54 @@
+.Nav {
+  display: flex;
+  align-items: center;
+}
+
+.Nav__list {
+  display: flex;
+  align-items: center;
+}
+
+.Nav__item {
+  margin: 0 1rem;
+}
+
+.Nav__item a {
+  font-size: 1.5rem;
+  color: var(--gris);
+  position: relative;
+}
+
+.Nav__item .Nav__item-btn {
+  margin-right: 3rem;
+}
+
+.Nav__item .Nav__item-btn::after {
+  content: '';
+  display: block;
+  width: 0;
+  height: 1px;
+  background: var(--gris);
+  position: absolute;
+  bottom: -0.3rem;
+  z-index: 1;
+  transition: width 0.5s;
+}
+
+.Nav__item .Nav__item-btn:hover::after {
+  width: 100%;
+}
+
+.Nav__list-social .Nav__item a {
+  border: 1px solid var(--gris);
+  width: 30px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+}
+
+.Nav__list-social .Nav__item:hover a {
+  color: var(--blanco);
+  background: var(--gris);
+}

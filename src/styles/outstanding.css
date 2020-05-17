@@ -1,0 +1,51 @@
+.Outstanding {
+  padding: 48px 0;
+}
+
+.Outstanding__container {
+  display: flex;
+  justify-content: center;
+}
+
+.Outstanding__column {
+  width: 40%;
+  margin: 0 2rem;
+  color: var(--gris);
+}
+
+.Outstanding__title {
+  text-align: right;
+  font-size: 4.3rem;
+  font-weight: 400;
+}
+
+.Outstanding__text {
+  font-size: 1.6rem;
+  font-weight: 300;
+  margin-bottom: 2rem;
+  line-height: 1.3;
+}
+
+.Outstanding__text strong {
+  font-weight: 500;
+  font-size: 1.6rem;
+}
+
+.Outstanding__btn {
+  display: block;
+  width: 100%;
+  font-size: 1.6rem;
+  background: var(--gris);
+  margin-top: 2rem;
+  text-align: center;
+  color: var(--blanco);
+  padding: 1rem;
+  border-radius: 3rem;
+  border: 1px solid var(--gris);
+  transition: background 0.5s, color 0.5s;
+}
+
+.Outstanding__btn:hover {
+  background: var(--blanco);
+  color: var(--gris);
+}

@@ -1,0 +1,42 @@
+.Form {
+  width: 50%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 4rem;
+}
+
+.Form__input, .Form__textarea {
+  width: 48%;
+  margin-bottom: 2rem;
+  padding: 1rem;
+  font-size: 1.3rem;
+  border: 1px solid var(--gris);
+  color: var(--gris);
+  border-radius: 3rem;
+  outline: 0;
+}
+
+.Form__textarea {
+  resize: none;
+  width: 100%;
+  padding: 2rem 1rem;
+}
+
+.Form__btn {
+  display: block;
+  width: 100%;
+  font-size: 1.6rem;
+  background: var(--gris);
+  text-align: center;
+  color: var(--blanco);
+  padding: 1rem;
+  border-radius: 3rem;
+  border: 1px solid var(--gris);
+  transition: background 0.5s, color 0.5s;
+}
+
+.Form__btn:hover {
+  background: var(--blanco);
+  color: var(--gris);
+}
